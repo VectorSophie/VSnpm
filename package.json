@@ -1,0 +1,35 @@
+{
+  "name": "vsnpm",
+  "version": "1.0.0",
+  "description": "mess",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "tsc",
+    "clean": "rm -rf dist",
+    "build": "tsup index.ts --format cjs,esm --dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VectorSophie/VSnpm.git"
+  },
+  "keywords": [
+    "anything"
+  ],
+  "author": "VectorSophie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VectorSophie/VSnpm/issues"
+  },
+  "homepage": "https://github.com/VectorSophie/VSnpm#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
